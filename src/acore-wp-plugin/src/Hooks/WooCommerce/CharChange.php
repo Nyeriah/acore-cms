@@ -128,7 +128,7 @@ class CharChange extends \ACore\Lib\WpClass {
                         }
                     })
                     .on('reset_data', function () {
-                        giftField.hide();
+                        giftField.hide().find('input').val('');
                     });
             });
         </script>
